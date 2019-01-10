@@ -1,0 +1,72 @@
+/* ===== FORM ===== */
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background: #ECEEF1;
+  font-family: Roboto, Arial, sans-serif;
+}
+.link-decoration {
+  text-decoration: none;
+  color: #0077C5;
+}
+
+.pl-pr-29 {
+  padding-left: 29px;
+  padding-right: 29px;
+}
+
+.h-center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form label .left-align {
+  text-align: left !important;
+}
+
+.main-header .main-section .main-footer {
+  flex-direction: column;
+}
+.title .icons {
+  flex-direction: column;
+}
+
+header .head-form {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+header img {
+  flex-direction: column;
+}
+section .cuerpo {
+  width: 378px;
+  height: 692px;
+  flex-direction: column;
+  border: 1px solid gray;
+  align-items: center;
+}
+
+form input {
+  width: 318px;
+  height: 32px;
+}
+
+form button .create-account {
+  width: 318px;
+  height: 44px;
+}
+
+section .disclaimers {
+}
+
+section .captcha-tos {
+  height: 53px;
+}
+
+a {
+  text-decoration: none;
+}
